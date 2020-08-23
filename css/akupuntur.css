@@ -1,0 +1,135 @@
+.bg-banner {
+    background-image: url(../img/akupuntur/bg-mobile.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.bn-orang {
+    height: 260px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+
+.banner {
+    background-color: #A1EA87;
+    height: 100px ;
+    width: 100px;
+    margin-top: -80px;
+    margin-left: 180px;
+}
+
+.judul-banner{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -230px;
+    margin-left: 210px;
+}
+
+.sub-judul-banner {
+    font-family: 'Kurale';
+    font-size: 15px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 578px) {
+
+    .bn-orang {
+        height: 260px;
+        margin-top: 115px;
+        margin-left: 15px;
+    }
+
+    .banner {
+        background-color: #A1EA87;
+        height: 200px ;
+        width: 200px;
+        margin-top: -140px;
+        margin-left: -20px;
+    }
+
+    .judul-banner{
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+
+    .sub-judul-banner {
+        font-family: 'Kurale';
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: -20px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Tampilan Desktop */
+ @media only screen and (min-width: 992px) {
+
+    .bg-banner {
+        background-image: url(../img/akupuntur/bg-banner.png);
+        background-size: cover ;
+        background-repeat: no-repeat;
+        height: 620px;
+    }
+
+    .bn-orang {
+        margin-top: 100px;
+        margin-left: 90px;
+        height: 500px;
+    }
+
+    .banner {
+        background-color: #A1EA87;
+        height: 300px ;
+        width: 300px;
+        margin-top: -230px;
+        margin-left: 0;
+    }
+
+    .judul-banner{
+        font-weight: bold;
+        font-size: 70px;
+        margin-top: 120px;
+        margin-left: 68px;
+    }
+
+    .sub-judul-banner {
+        font-family: 'Kurale';
+        font-size: 45px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    
+
+ }
